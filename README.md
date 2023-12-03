@@ -10,7 +10,7 @@ The project is written in Python 3.11.5 and majorly uses the following libraries
 envCreating.py - Creates the environment for the maze taken the input of an image of a maze.
 gui.py
 RLsolver.py
-maze.jpg - ![Getting Started](./maze.jpg)
+maze.jpg - ![maze](maze.jpg)
 mazeEnv.xlsx
 QValues.json
 
