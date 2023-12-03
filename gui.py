@@ -80,5 +80,5 @@ def drawHeatmap():
     plt.title('Heatmap of Average Q-Values for each state')
 
     plt.show()
-    plt.pause(5)  # display the heatmap for 5 seconds
+    plt.pause(10)  # display the heatmap for 10 seconds
     plt.close()
