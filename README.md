@@ -43,7 +43,7 @@ Penalty for each step - 0.1
 Since the maze is much bigger than the agent itself, the exploration of the maze is more important than expoitation. So the agent makes the move with the best Q-value with a probability of 0.7 and makes a random move with a probability of 0.3. This is done to ensure that the agent explores the maze and does not get stuck in a loop.
 
 The Q-values are updated using the following formula:<br/>
-![Q-values](C:\Users\yasha\OneDrive\Desktop\Desktop stuff\Interesting stuff\ASU 1st sem\Python\projecttemp\qvalue.png)<br/>
+![Q-values](qvalue.png)<br/>
 
 These QValues are saved in a JSON file, in the format "row col" as the key and the Qvalues of going up, down, left and right as the values in a single list. The Q-values are updated after every exploration cycle.
 
