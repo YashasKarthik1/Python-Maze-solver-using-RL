@@ -36,8 +36,8 @@ The rewards/penalty are as follows:<br/>
 
 ```
 Reward for winning - 10000
-Penalty for bumping into a wall - -5
-Penalty for each step - -0.1
+Penalty for bumping into a wall - 5
+Penalty for each step - 0.1
 ```
 
 Since the maze is much bigger than the agent itself, the exploration of the maze is more important than expoitation. So the agent makes the move with the best Q-value with a probability of 0.7 and makes a random move with a probability of 0.3. This is done to ensure that the agent explores the maze and does not get stuck in a loop.
