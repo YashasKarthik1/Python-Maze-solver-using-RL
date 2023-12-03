@@ -21,7 +21,7 @@ Reward for each step, gives a penalty for the agent to take more steps to reach 
 
 Since the maze is a deterministic environment which changes dynamically, we do not need to use an epsilon greedy policy.
 Although agent will choose the action with the highest Q-value 70% of the time, we use this learning rate to ensure 
-that the agent explores more than exploits the environment.
+that the agent explores more than exploits the environment. This can be changed by changing the LEARNING_RATE.
 """
 
 # importing all the required libraries
