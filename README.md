@@ -20,7 +20,7 @@ The code is built to work with any maze image. The image of the maze can be chan
 
 Taking the input of the image, it creates a mask of the photo, to recognise the edges of the maze. The mask is then converted into a numpy array of 0s and 1s. The 1s represent the walls and 0s represent the path. The unneccesary space around the maze is ommitted in the np array and using the edges of the maze, the start and end of the maze is detected. The start is detected as the empty maze border in the top row or the lefmost column. The end is detected as the empty maze border in the bottom row or the rightmost column. The start and end points are then stored in a list.
 
-The matrix is then converted into an excel file and is used as the initial environment for the maze. Where
+The matrix is then converted into an excel file and is used as the initial environment for the maze. Where<br/>
 EMPTY = 0<br/>
 WALL = 1<br/>
 START = 3<br/>
