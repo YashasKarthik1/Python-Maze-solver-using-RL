@@ -41,6 +41,15 @@ These QValues are saved in a JSON file, in the format "row col" as the key and t
 
 For better understanding of the exploration and exploitation, the Q-values are plotted as a heatmap once the exploration is complete.:<br/>
 
+## Usage
+
+To run the code, clone the repository and run the following command in the terminal:<br/>
+
+```
+python envCreating.py
+python RLsolver.py
+```
+
 ## Contact Information
 
 Name - Yashas Karthik<br/>
