@@ -30,16 +30,9 @@ Penalty for each step - -0.1<br/>
 Since the maze is much bigger than the agent itself, the exploration of the maze is more important than expoitation. So the agent makes the move with the best Q-value with a probability of 0.7 and makes a random move with a probability of 0.3. This is done to ensure that the agent explores the maze and does not get stuck in a loop.
 
 The Q-values are updated using the following formula:<br/>
-Q(s,a) = Q(s,a) + gamma \* (reward + max(Q(s',a)) - Q(s,a))<br/>
-where,<br/>
-alpha = learning rate<br/>
-gamma = discount factor<br/>
-s = current state<br/>
-a = action taken<br/>
-s' = next state<br/>
-![maze](C:\Users\yasha\OneDrive\Desktop\Desktop stuff\Interesting stuff\ASU 1st sem\Python\projecttemp\qvlue.png)<br/>
+![Q-values](qvalues.png)<br/>
 
 ## Contact Information
 
-Name - Yashas Karthik
+Name - Yashas Karthik<br/>
 Email - yashaskarthikb@gmail.com
