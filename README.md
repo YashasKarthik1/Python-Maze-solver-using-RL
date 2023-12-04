@@ -50,7 +50,7 @@ These QValues are saved in a JSON file, in the format "row col" as the key and t
 For better understanding of the exploration and exploitation, the Q-values are plotted as a heatmap once the exploration is complete.<br/>
 The following heatmap was the Qvalues after 10 hours of exploration:<br/>
 
-![heatmap](heatmap.png)<br/>
+![heatmap](heatmap.jpg)<br/>
 We can see that most of the maze has been left unexplored still. And the border of the maze have a lower QValue than the middle. due to the penalty of bumping into a wall.
 
 ## Usage
