@@ -48,6 +48,7 @@ The Q-values are updated using the following formula:<br/>
 These QValues are saved in a JSON file, in the format "row col" as the key and the Qvalues of going up, down, left and right as the values in a single list. The Q-values are updated after every exploration cycle.
 
 For better understanding of the exploration and exploitation, the Q-values are plotted as a heatmap once the exploration is complete.:<br/>
+![heatmap](heatmap.png)<br/>
 
 ## Usage
 
