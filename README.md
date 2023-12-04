@@ -63,7 +63,7 @@ python RLsolver.py
 ```
 
 <br/>
-[YouTube link](https://www.youtube.com/watch?v=q05StZaW99U&ab_channel=YashasKarthik)
+YouTube link: (https://www.youtube.com/watch?v=q05StZaW99U&ab_channel=YashasKarthik) <br/>
 
 ## Contact Information
 
