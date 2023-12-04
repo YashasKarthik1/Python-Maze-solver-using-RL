@@ -47,8 +47,11 @@ The Q-values are updated using the following formula:<br/>
 
 These QValues are saved in a JSON file, in the format "row col" as the key and the Qvalues of going up, down, left and right as the values in a single list. The Q-values are updated after every exploration cycle.
 
-For better understanding of the exploration and exploitation, the Q-values are plotted as a heatmap once the exploration is complete.:<br/>
+For better understanding of the exploration and exploitation, the Q-values are plotted as a heatmap once the exploration is complete.<br/>
+The following heatmap was the Qvalues after 10 hours of exploration:<br/>
+
 ![heatmap](heatmap.png)<br/>
+We can see that most of the maze has been left unexplored still. And the border of the maze have a lower QValue than the middle. due to the penalty of bumping into a wall.
 
 ## Usage
 
