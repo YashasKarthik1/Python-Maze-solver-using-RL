@@ -102,7 +102,7 @@ def setStartEnd(mazeDataFrame):
     return mazeEnv
 
 
-# main function
+# main function to run the program
 if __name__ == "__main__":
     inputPath = 'maze.jpg'  # input image path
     print(f"Reading image from {inputPath}...")

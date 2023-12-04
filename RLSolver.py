@@ -55,7 +55,7 @@ REWARD_FOR_BUMPING_INTO_WALL = -20
 REWARD_FOR_EACH_STEP = -1
 
 # defining the learning parameter
-DISCOUNT_FACTOR = 0.4
+DISCOUNT_FACTOR = 0.6
 # 70% of the time, the agent will choose the action with the highest Q-value
 LEARNING_RATE = 0.7
 
@@ -93,14 +93,13 @@ class RLSolver:
 
         # if the JSON file exists and is not empty, load the Q-values from the JSON file to the QValue dictionary
         if os.path.exists(self.JSONFile) and os.path.getsize(self.JSONFile) > 0:
-            print("JSON file exists. Loading Q-values from JSON file\n")
+            print("Loading Q-values from JSON file of prior iterations\n")
             with open(self.JSONFile, "r") as file:
                 self.QValueDict = json.load(file)
 
         # if the JSON file does not exist, create the JSON file and initialize all QValues to 0
         else:
-            print(
-                "JSON file does not exist. Creating JSON file to save all the Q-Values\n")
+            print("Creating JSON file to save all the Q-Values\n")
             self.QValueDict = {f"{row} {col}": [0, 0, 0, 0] for row in range(self.environment.shape[0]) for col in range(
                 self.environment.shape[1]) if self.environment[row, col] == EMPTY or self.environment[row, col] == AGENT}
             jsonInput = json.dumps(self.QValueDict, indent=2)
